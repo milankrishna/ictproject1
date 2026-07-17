@@ -1,0 +1,63 @@
+:root {
+  --primary: #6c4ab6;
+  --secondary: #1f2140;
+  --soft: #f7f5ff;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #fffaf0, #f3edff);
+  color: var(--secondary);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: var(--primary) !important;
+}
+
+.hero {
+  background: linear-gradient(120deg, rgba(108,74,182,0.15), rgba(31,33,64,0.1));
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+
+.card {
+  border: 0;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+.art-image {
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.page-shell {
+  min-height: 100vh;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-primary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.footer {
+  color: #666;
+  font-size: 0.95rem;
+}
