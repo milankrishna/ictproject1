@@ -34,8 +34,8 @@ body {
 
 .art-image {
   height: 220px;
-  object-fit: cover;
   width: 100%;
+  display: block;
 }
 
 .page-shell {
